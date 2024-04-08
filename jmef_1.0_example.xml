@@ -1,42 +1,46 @@
 <journal owner-type="scholar">
-  <journal-meta>
-    <journal-id journal-id-type="ddh">123</journal-id>
-    <journal-id journal-id-type="doaj">6f0107092faa43e7b3232480cb89fb99</journal-id>
-    <journal-id journal-id-type="doi">10.1012/abc</journal-id>
-    <journal-title-group>
-      <journal-title>Patria Artha Technological Journal</journal-title>
-    </journal-title-group>
-    <issn publication-format="print" state="registered">1063-777X</issn>
-    <issn publication-format="electronic" state="registered">1090-6517</issn>
-    <publisher>
-      <publisher-name>British Medical Journal</publisher-name>
-      <publisher-loc><country country="GB">United Kingdom</country></publisher-loc>
-    </publisher>
-    <publication-policy>
-      <costs>
-        <apc present="false" />
-        <other-charges present="false" />
-      </costs>
-      <review-process peer-review="true" />
-      <languages><language language="EN">English</language><language language="DE" /></languages>
-      <licenses>
-        <license xlink:href="http://creativecommons.org/licenses/by-nc/4.0" />
-        <license xlink:href="http://creativecommons.org/licenses/by/4.0" />
-      </licenses>
-      <authorship open="true" />
-    </publication-policy>
-    <self-uri xlink:href="http://ejournal.patria-artha.ac.id/index.php/patj/index" />
-    <kwd-group>
-      <kwd>DNA analysis</kwd>
-      <kwd>gene expression</kwd>
-      <kwd>parallel cloning</kwd>
-      <kwd>fluid microarray</kwd>
-    </kwd-group>
-    <kwd-group vocab="oecd-2007" vocab-identifier="https://www.oecd.org"> 
-      <compound-kwd>
-        <compound-kwd-part content-type="code">2.6</compound-kwd-part>
-        <compound-kwd-part content-type="value">Medical engineering</compound-kwd-part>
-      </compound-kwd>
-    </kwd-group>
-  </journal-meta>
+  <journal-id journal-id-type="ddh">123</journal-id>
+  <journal-id journal-id-type="doaj">6f0107092faa43e7b3232480cb89fb99</journal-id>
+  <journal-id journal-id-type="doi">10.1012/abc</journal-id>
+  <journal-title-group>
+    <journal-title>Patria Artha Technological Journal</journal-title>
+  </journal-title-group>
+  <issn publication-format="print" state="registered">1063-777X</issn>
+  <issn publication-format="electronic" state="registered">1090-6517</issn> <!--TODO: maybe registered=true/false? -->
+  <publisher>
+    <publisher-name>British Medical Journal</publisher-name>
+    <publisher-location>
+      <country iso2="GB" iso3="GBR">United Kingdom</country>
+    </publisher-location>
+  </publisher>
+  <publication-policy>
+    <costs>
+      <apc present="false" />
+      <other-charges present="false" />
+    </costs>
+    <review-process peer-review="true" />
+    <languages>
+      <language iso2="EN" iso3="ENG">English</language>
+      <language iso2="DE">German</language>
+      <language>Polish</language>
+    </languages>
+    <licenses>
+      <license xlink:href="http://creativecommons.org/licenses/by-nc/4.0" />
+      <license xlink:href="http://creativecommons.org/licenses/by/4.0" />
+    </licenses>
+    <authorship open="true" />
+  </publication-policy>
+  <self-uri xlink:href="http://ejournal.patria-artha.ac.id/index.php/patj/index" />
+  <kwd-group>
+    <kwd>DNA analysis</kwd>
+    <kwd>gene expression</kwd>
+    <kwd>parallel cloning</kwd>
+    <kwd>fluid microarray</kwd>
+  </kwd-group>
+  <kwd-group vocab="oecd-2007" vocab-identifier="https://www.oecd.org"> 
+    <compound-kwd>
+      <compound-kwd-part content-type="code">2.6</compound-kwd-part>
+      <compound-kwd-part content-type="value">Medical engineering</compound-kwd-part>
+    </compound-kwd>
+  </kwd-group>
 </journal>
