@@ -1,3 +1,0 @@
-- [Krzysztof Mądry](https://github.com/madryk)
-- [Łukasz Dumiszewski](https://github.com/lukdumi)
-- Hanna Varachkina
