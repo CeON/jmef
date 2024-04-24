@@ -5,8 +5,8 @@
   <journal-title-group>
     <journal-title>Patria Artha Technological Journal</journal-title>
   </journal-title-group>
-  <issn publication-format="print" state="registered">1063-777X</issn>
-  <issn publication-format="electronic" state="registered">1090-6517</issn> <!--TODO: maybe registered=true/false? -->
+  <issn publication-format="print">1063-777X</issn>
+  <issn publication-format="electronic">1090-6517</issn> 
   <publisher>
     <publisher-name>British Medical Journal</publisher-name>
     <publisher-location>
