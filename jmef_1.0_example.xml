@@ -1,4 +1,4 @@
-<journal owner-type="scholar">
+<journal xmlns:xlink="http://www.w3.org/1999/xlink" owner-type="scholar">
   <journal-id journal-id-type="ddh">123</journal-id>
   <journal-id journal-id-type="doaj">6f0107092faa43e7b3232480cb89fb99</journal-id>
   <journal-id journal-id-type="doi">10.1012/abc</journal-id>
@@ -20,8 +20,8 @@
     </costs>
     <review-process peer-review="true" />
     <languages>
-      <language iso2="EN" iso3="ENG">English</language>
-      <language iso2="DE">German</language>
+      <language iso1="EN" iso2="ENG">English</language>
+      <language iso1="DE">German</language>
       <language>Polish</language>
     </languages>
     <licenses>
