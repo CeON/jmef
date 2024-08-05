@@ -55,20 +55,9 @@
         <xs:element minOccurs="0" name="publication-policy">
           <xs:complexType>
             <xs:sequence>
-              <xs:element minOccurs="0" name="costs">
+              <xs:element minOccurs="0" name="fees">
                 <xs:complexType>
-                  <xs:sequence>
-                    <xs:element minOccurs="0" name="apc">
-                      <xs:complexType>
-                        <xs:attribute name="present" type="xs:boolean" use="required"/>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element minOccurs="0" name="other-charges">
-                      <xs:complexType>
-                        <xs:attribute name="present" type="xs:boolean" use="required"/>
-                      </xs:complexType>
-                    </xs:element>
-                  </xs:sequence>
+                  <xs:attribute name="free" type="xs:boolean" use="required"/>
                 </xs:complexType>
               </xs:element>
               <xs:element minOccurs="0" name="review-process">
@@ -149,7 +138,7 @@
       <xs:documentation>Type of owner of journal.</xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="scholar"/>
+      <xs:enumeration value="community"/>
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="issnPublicationFormatType" id="issnPublicationFormatType">
