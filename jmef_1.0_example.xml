@@ -1,4 +1,4 @@
-<journal xmlns:xlink="http://www.w3.org/1999/xlink" owner-type="scholar">
+<journal xmlns:xlink="http://www.w3.org/1999/xlink" owner-type="community">
   <journal-id journal-id-type="ddh">123</journal-id>
   <journal-id journal-id-type="doaj">6f0107092faa43e7b3232480cb89fb99</journal-id>
   <journal-id journal-id-type="doi">10.1012/abc</journal-id>
@@ -14,10 +14,7 @@
     </publisher-location>
   </publisher>
   <publication-policy>
-    <costs>
-      <apc present="false" />
-      <other-charges present="false" />
-    </costs>
+    <fees free="true"/>
     <review-process peer-review="true" />
     <languages>
       <language iso1="EN" iso2="ENG">English</language>
