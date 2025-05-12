@@ -1,24 +1,44 @@
-<journal xmlns:xlink="http://www.w3.org/1999/xlink" owner-type="community">
+<journal xmlns:xlink="http://www.w3.org/1999/xlink">
   <journal-id journal-id-type="ddh">123</journal-id>
   <journal-id journal-id-type="doaj">6f0107092faa43e7b3232480cb89fb99</journal-id>
   <journal-id journal-id-type="doi">10.1012/abc</journal-id>
   <journal-title-group>
-    <journal-title>Patria Artha Technological Journal</journal-title>
+    <journal-title language-iso2=”ENG”>Patria Artha Technological Journal</journal-title>
+    <journal-title-translation language-iso2="DEU">Translated title</journal-title-translation>
+    <journal-other-title type="subtitle" language-iso2="ENG">Subtitle</journal-other-title>
+    <journal-other-title type="alternative">Alt title</journal-other-title>
   </journal-title-group>
   <issn publication-format="print">1063-777X</issn>
   <issn publication-format="electronic">1090-6517</issn> 
-  <publisher>
-    <publisher-name>British Medical Journal</publisher-name>
-    <publisher-location>
-      <country iso2="GB" iso3="GBR">United Kingdom</country>
-    </publisher-location>
-  </publisher>
+  <organizations>
+    <publisher>
+      <publisher-name>British Medical Journal</publisher-name>
+      <publisher-location>
+        <country iso3="GBR">United Kingdom</country>
+      </publisher-location>
+    </publisher>
+    <other-organization>
+      <organization-name>University of Science</organization-name>
+    </other-organization>
+    <other-organzation>
+      <organization-name>University of Science 2</organization-name>
+    </other-organization>
+  </organizations>
+  
+  <diamond-criteria>
+    <scholarly-journal value="true" />
+    <community-owned value="true"/>
+    <open-access-with-open-licenses value="true" />
+    <no-fees value="true"/>
+    <open-to-all-authors value="true" />
+  </diamond-criteria>
+
   <publication-policy>
     <fees free="true"/>
-    <review-process peer-review="true" />
+    <review-process type="PEER"/>
     <languages>
-      <language iso1="EN" iso2="ENG">English</language>
-      <language iso1="DE">German</language>
+      <language iso2="ENG">English</language>
+      <language iso2="DEU">German</language>
       <language>Polish</language>
     </languages>
     <licenses>
