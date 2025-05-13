@@ -18,7 +18,7 @@
         <xs:element name="journal-title-group">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="journal-title" type="xs:string">
+              <xs:element name="journal-title">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:string">
@@ -27,7 +27,7 @@
                   </xs:simpleContent>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="journal-title-translation" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="journal-title-translation" minOccurs="0" maxOccurs="unbounded">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:string">
@@ -36,7 +36,7 @@
                   </xs:simpleContent>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="journal-other-title" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="journal-other-title" minOccurs="0" maxOccurs="unbounded">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:string">
@@ -60,10 +60,10 @@
           </xs:complexType>
         </xs:element>
 
-        <xs:element name="diamond-criteria">
+        <xs:element minOccurs="0" name="diamond-criteria">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="scholarly-journal" type="xs:string" use="optional">
+              <xs:element minOccurs="0" name="scholarly-journal">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:string">
@@ -72,7 +72,7 @@
                   </xs:simpleContent>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="community-owned" type="xs:string" use="optional">
+              <xs:element minOccurs="0" name="community-owned">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:string">
@@ -81,7 +81,7 @@
                   </xs:simpleContent>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="open-access-with-open-licenses" type="xs:string" use="optional">
+              <xs:element minOccurs="0" name="open-access-with-open-licenses">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:string">
@@ -90,7 +90,7 @@
                   </xs:simpleContent>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="no-fees" type="xs:string" use="optional">
+              <xs:element minOccurs="0" name="no-fees">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:string">
@@ -99,7 +99,7 @@
                   </xs:simpleContent>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="open-to-all-authors" type="xs:string" use="optional">
+              <xs:element minOccurs="0" name="open-to-all-authors">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:string">
@@ -112,7 +112,7 @@
           </xs:complexType>
         </xs:element>
 
-        <xs:element minOccurs="0" name="oragnizations">
+        <xs:element minOccurs="0" name="organizations">
           <xs:complexType>
             <xs:sequence>
               <xs:element minOccurs="0" name="publisher">
@@ -137,7 +137,7 @@
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
-              <xs:element minOccurs="0" name="other-organization">
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="other-organization">
                 <xs:complexType>
                   <xs:sequence>
                     <xs:element name="organization-name" type="xs:string"/>
@@ -158,7 +158,7 @@
               </xs:element>
               <xs:element minOccurs="0" name="review-process">
                 <xs:complexType>
-                  <xs:attribute name="type" type="xs:reviewType" use="required"/>
+                  <xs:attribute name="type" type="reviewType" use="required"/>
                 </xs:complexType>
               </xs:element>
               <xs:element minOccurs="0" name="languages">
@@ -227,15 +227,16 @@
           </xs:complexType>
         </xs:element>
       </xs:sequence>
-      <xs:attribute name="owner-type" type="journalOwnerType" use="optional"/>
     </xs:complexType>
   </xs:element>
-  <xs:simpleType name="otherTitleType" id="reviewType">
+  <xs:simpleType name="otherTitleType" id="otherTitleType">
     <xs:annotation>
-      <xs:documentation>Type of review.</xs:documentation>
+      <xs:documentation>Type of other title.</xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="peer"/>
+      <xs:enumeration value="alternative"/>
+      <xs:enumeration value="subtitle"/>
+      <xs:enumeration value="other"/>
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="reviewType" id="reviewType">
