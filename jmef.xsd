@@ -5,20 +5,20 @@
     <xs:complexType>
       <xs:sequence>
 
-        <xs:element minOccurs="0" maxOccurs="unbounded" name="journal-id">
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="id">
           <xs:complexType>
             <xs:simpleContent>
               <xs:extension base="xs:string">
-                <xs:attribute name="journal-id-type" type="xs:string" use="required"/>
+                <xs:attribute name="type" type="xs:string" use="required"/>
               </xs:extension>
             </xs:simpleContent>
           </xs:complexType>
         </xs:element>
 
-        <xs:element name="journal-title-group">
+        <xs:element name="title-group">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="journal-title">
+              <xs:element name="title">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:string">
@@ -27,16 +27,7 @@
                   </xs:simpleContent>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="journal-title-translation" minOccurs="0" maxOccurs="unbounded">
-                <xs:complexType>
-                  <xs:simpleContent>
-                    <xs:extension base="xs:string">
-                      <xs:attribute name="language-iso2" type="languageIso2Type" use="required"/>
-                    </xs:extension>
-                  </xs:simpleContent>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="journal-other-title" minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="other-title" minOccurs="0" maxOccurs="unbounded">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:string">
@@ -118,8 +109,8 @@
               <xs:element minOccurs="0" name="publisher">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element minOccurs="0" name="publisher-name" type="xs:string"/>
-                    <xs:element minOccurs="0" name="publisher-location">
+                    <xs:element minOccurs="0" name="name" type="xs:string"/>
+                    <xs:element minOccurs="0" name="location">
                       <xs:complexType>
                         <xs:sequence>
                           <xs:element name="country">
@@ -151,11 +142,6 @@
         <xs:element minOccurs="0" name="publication-policy">
           <xs:complexType>
             <xs:sequence>
-              <xs:element minOccurs="0" name="fees">
-                <xs:complexType>
-                  <xs:attribute name="free" type="xs:boolean" use="required"/>
-                </xs:complexType>
-              </xs:element>
               <xs:element minOccurs="0" name="review-process">
                 <xs:complexType>
                   <xs:attribute name="type" type="reviewType" use="required"/>
@@ -187,11 +173,6 @@
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
-              <xs:element minOccurs="0" name="authorship">
-                <xs:complexType>
-                  <xs:attribute name="open" type="xs:boolean" use="required"/>
-                </xs:complexType>
-              </xs:element>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
@@ -202,28 +183,35 @@
           </xs:complexType>
         </xs:element>
 
-        <xs:element minOccurs="0" maxOccurs="unbounded" name="kwd-group">
+        <xs:element minOccurs="0" name="keywords">
           <xs:complexType>
             <xs:sequence>
-              <xs:element minOccurs="0" name="compound-kwd">
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="keyword" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element minOccurs="0" name="classifications">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="classification">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element maxOccurs="unbounded" name="compound-kwd-part">
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="class">
                       <xs:complexType>
                         <xs:simpleContent>
                           <xs:extension base="xs:string">
-                            <xs:attribute name="content-type" type="xs:string" use="required"/>
+		            <xs:attribute name="code" type="xs:string" use="required"/>
+			    <xs:attribute name="value" type="xs:string" use="optional"/>
                           </xs:extension>
                         </xs:simpleContent>
                       </xs:complexType>
                     </xs:element>
-                  </xs:sequence>
+	          </xs:sequence>
+	          <xs:attribute name="tyoe" type="xs:string" use="optional"/>
                 </xs:complexType>
               </xs:element>
-              <xs:element minOccurs="0" maxOccurs="unbounded" name="kwd" type="xs:string"/>
             </xs:sequence>
-            <xs:attribute name="vocab" type="xs:string" use="optional"/>
-            <xs:attribute name="vocab-identifier" type="xs:string" use="optional"/>
           </xs:complexType>
         </xs:element>
       </xs:sequence>

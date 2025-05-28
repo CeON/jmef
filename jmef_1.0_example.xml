@@ -1,13 +1,13 @@
 <journal xmlns:xlink="http://www.w3.org/1999/xlink">
-  <journal-id journal-id-type="ddh">123</journal-id>
-  <journal-id journal-id-type="doaj">6f0107092faa43e7b3232480cb89fb99</journal-id>
-  <journal-id journal-id-type="doi">10.1012/abc</journal-id>
-  <journal-title-group>
-    <journal-title language-iso2="ENG">Patria Artha Technological Journal</journal-title>
-    <journal-title-translation language-iso2="DEU">Translated title</journal-title-translation>
-    <journal-other-title type="subtitle" language-iso2="ENG">Subtitle</journal-other-title>
-    <journal-other-title type="alternative">Alt title</journal-other-title>
-  </journal-title-group>
+  <id type="ddh">123</id>
+  <id type="doaj">6f0107092faa43e7b3232480cb89fb99</journal-id>
+  <id type="doi">10.1012/abc</journal-id>
+  <title-group>
+    <title language-iso2="ENG">Patria Artha Technological Journal</title>
+    <other-title type="translation" language-iso2="DEU">Translated title</other-title>
+    <other-title type="subtitle" language-iso2="ENG">Subtitle</other-title>
+    <other-title type="alternative">Alt title</other-title>
+  </title-group>
   <issn publication-format="print">1063-777X</issn>
   <issn publication-format="electronic">1090-6517</issn> 
 
@@ -21,21 +21,20 @@
 
   <organizations>
     <publisher>
-      <publisher-name>British Medical Journal</publisher-name>
-      <publisher-location>
+      <name>British Medical Journal</name>
+      <location>
         <country iso3="GBR">United Kingdom</country>
-      </publisher-location>
+      </location>
     </publisher>
     <other-organization>
-      <organization-name>University of Science</organization-name>
+      <name>University of Science</name>
     </other-organization>
     <other-organization>
-      <organization-name>University of Science 2</organization-name>
+      <name>University of Science 2</name>
     </other-organization>
   </organizations>
 
   <publication-policy>
-    <fees free="true"/>
     <review-process type="peer"/>
     <languages>
       <language iso2="ENG">English</language>
@@ -46,19 +45,17 @@
       <license xlink:href="http://creativecommons.org/licenses/by-nc/4.0" />
       <license xlink:href="http://creativecommons.org/licenses/by/4.0" />
     </licenses>
-    <authorship open="true" />
   </publication-policy>
   <self-uri xlink:href="http://ejournal.patria-artha.ac.id/index.php/patj/index" />
-  <kwd-group>
-    <kwd>DNA analysis</kwd>
-    <kwd>gene expression</kwd>
-    <kwd>parallel cloning</kwd>
-    <kwd>fluid microarray</kwd>
-  </kwd-group>
-  <kwd-group vocab="oecd-2007" vocab-identifier="https://www.oecd.org"> 
-    <compound-kwd>
-      <compound-kwd-part content-type="code">2.6</compound-kwd-part>
-      <compound-kwd-part content-type="value">Medical engineering</compound-kwd-part>
-    </compound-kwd>
-  </kwd-group>
+  <keywords>
+    <keyword>DNA analysis</keyword>
+    <keyword>gene expression</keyword>
+    <keyword>parallel cloning</keyword>
+    <keyword>fluid microarray</keyword>
+  </keywords>
+  <classifications>
+    <classification type="oecd-2007">
+      <class code="2.6" value="Medical engineering" />
+    </classification>
+  </classifications>
 </journal>
