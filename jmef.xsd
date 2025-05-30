@@ -131,7 +131,7 @@
               <xs:element minOccurs="0" maxOccurs="unbounded" name="other-organization">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="organization-name" type="xs:string"/>
+                    <xs:element name="name" type="xs:string"/>
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
@@ -208,7 +208,7 @@
                       </xs:complexType>
                     </xs:element>
 	          </xs:sequence>
-	          <xs:attribute name="tyoe" type="xs:string" use="optional"/>
+	          <xs:attribute name="type" type="xs:string" use="optional"/>
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
@@ -222,6 +222,7 @@
       <xs:documentation>Type of other title.</xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
+      <xs:enumeration value="translation"/>
       <xs:enumeration value="alternative"/>
       <xs:enumeration value="subtitle"/>
       <xs:enumeration value="other"/>
