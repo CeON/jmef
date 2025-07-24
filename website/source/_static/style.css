@@ -1,0 +1,8 @@
+
+/* Hide search form in navbar */
+.navbar-form,
+.navbar-search,
+#searchbox,
+form[role="search"] {
+    display: none !important;
+}
