@@ -1,7 +1,7 @@
 Version 1.0
 ==============================================
 
-Version 1.0 is the latest version of JMEF. It was realesed on June 2, 2025.
+Version 1.0 is the latest version of JMEF. It was realesed on June 2nd, 2025.
 
 Documentation
 -------------

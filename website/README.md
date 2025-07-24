@@ -26,7 +26,7 @@ source env/bin/activate
 Install sphinx (and possibly other required packages)
 
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 This is all you need. You should now be able to build HTML/pdf documentation from git sources locally.
