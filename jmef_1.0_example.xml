@@ -1,4 +1,7 @@
-<journal xmlns:xlink="http://www.w3.org/1999/xlink">
+<journal xmlns="https://journalmetadata.org/version-1.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xsi:schemaLocation="https://journalmetadata.org/version-1.0 https://journalmetadata.org/version-1.0/jmef.xsd">
   <id type="ddh">123</id>
   <id type="doaj">6f0107092faa43e7b3232480cb89fb99</id>
   <id type="doi">10.1012/abc</id>
