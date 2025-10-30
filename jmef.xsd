@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+<xs:schema
+    xmlns="https://journalmetadata.org/version-1.0"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    attributeFormDefault="unqualified" elementFormDefault="qualified"
+    targetNamespace="https://journalmetadata.org/version-1.0" >
   <xs:import schemaLocation="https://www.w3.org/1999/xlink.xsd" namespace="http://www.w3.org/1999/xlink"/>
   <xs:element name="journal">
     <xs:complexType>

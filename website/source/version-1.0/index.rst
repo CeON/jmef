@@ -26,7 +26,10 @@ To use it just include it in your XML document:
 
 .. code-block::
 
-   <journal xmlns="https://jmef.icm.edu.pl/version-1.0" xsi:schemaLocation="https://jmef.icm.edu.pl/version-1.0 https://jmef.icm.edu.pl/version-1.0/jmef.xsd">
+   <journal xmlns="https://journalmetadata.org/version-1.0"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xsi:schemaLocation="https://journalmetadata.org/version-1.0 https://journalmetadata.org/version-1.0/jmef.xsd">
        ...
    </journal>
 

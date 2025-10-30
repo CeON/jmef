@@ -1,4 +1,7 @@
-<journal>
+<journal xmlns="https://journalmetadata.org/version-1.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xsi:schemaLocation="https://journalmetadata.org/version-1.0 https://journalmetadata.org/version-1.0/jmef.xsd">
   <title-group>
     <title>Patria Artha Technological Journal</title>
   </title-group>
