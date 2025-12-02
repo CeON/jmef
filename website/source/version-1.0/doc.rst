@@ -34,7 +34,7 @@ synchronization or deduplication of harvested data.
 
 Mandatory: **No**
 
-Occurences: **0-n**
+Occurrences: **0-n**
 
 .. code-block:: xml
 
@@ -52,7 +52,7 @@ Wrapper element containing informations about the journal titles
 
 Mandatory: **Yes**
 
-Occurences: **1**
+Occurrences: **1**
 
 .. code-block:: xml
 
@@ -70,7 +70,7 @@ The main title of the journal
 
 Mandatory: **Yes**
 
-Occurences: **1**
+Occurrences: **1**
 
 .. code-block:: xml
 
@@ -84,7 +84,7 @@ other-title
 
 Mandatory: **No**
 
-Occurences: **0-n**
+Occurrences: **0-n**
 
 .. code-block:: xml
 
@@ -101,7 +101,7 @@ International Standard Serial Number (ISSN) of the journal
 
 Mandatory: **Yes**
 
-Occurences: **1-n**
+Occurrences: **1-n**
 
 .. code-block:: xml
 
@@ -118,7 +118,7 @@ Journal diamond criteria as defined within the DIAMAS and CRAFT‑OA projects (s
 
 Mandatory: **No**
 
-Occurences: **1**
+Occurrences: **1**
 
 .. code-block:: xml
 
@@ -145,14 +145,14 @@ Status of the scholarly journal diamond criterion.
 
 Mandatory: **No**
 
-Occurences: **1**
+Occurrences: **1**
 
 .. code-block:: xml
 
     <scholarly-journal value="true" />
 
 Attributes:
- - value (Mandatory) - Whether journal fulfill scholarly journal diamond criterion. Possible values: true or false. 
+ - value (Mandatory) - Whether journal fulfills scholarly journal diamond criterion. Possible values: true or false. 
 
 community-owned
 ===============
@@ -170,14 +170,14 @@ Status of the community-owned diamond criterion.
 
 Mandatory: **No**
 
-Occurences: **1**
+Occurrences: **1**
 
 .. code-block:: xml
 
     <community-owned value="true"/>
 
 Attributes:
- - value (Mandatory) - Whether journal fulfill community owned diamond criterion. Possible values: true or false.
+ - value (Mandatory) - Whether journal fulfills community owned diamond criterion. Possible values: true or false.
 
 open-access-with-open-licenses
 ==============================
@@ -191,14 +191,14 @@ Status of the open access with open licenses diamond criterion.
 
 Mandatory: **No**
 
-Occurences: **1**
+Occurrences: **1**
 
 .. code-block:: xml
 
     <open-access-with-open-licenses value="true" />
 
 Attributes:
- - value (Mandatory) - Whether journal fulfill community open access with open licenses criterion. Possible values: true or false.
+ - value (Mandatory) - Whether journal fulfills community open access with open licenses criterion. Possible values: true or false.
 
 no-fees
 ======================
@@ -214,7 +214,7 @@ Status of the no fees diamond criterion.
 
 Mandatory: **No**
 
-Occurences: **1**
+Occurrences: **1**
 
 
 .. code-block:: xml
@@ -222,7 +222,7 @@ Occurences: **1**
     <no-fees value="true"/>
 
 Attributes:
- - value (Mandatory) - Whether journal fulfill no fees diamond criterion. Possible values: true or false. 
+ - value (Mandatory) - Whether journal fulfills no fees diamond criterion. Possible values: true or false. 
 
 open-to-all-authors
 ===================
@@ -236,14 +236,14 @@ Status of the open to all authors diamond criterion.
 
 Mandatory: **No**
 
-Occurences: **1**
+Occurrences: **1**
 
 .. code-block:: xml
 
     <open-to-all-authors value="true" />
 
 Attributes:
- - value (Mandatory) - Whether journal fulfill open to all authors diamond criterion. Possible values: true or false. 
+ - value (Mandatory) - Whether journal fulfills open to all authors diamond criterion. Possible values: true or false. 
 
 
 organizations
@@ -253,7 +253,7 @@ Organizations associated with the journal, in particular the publisher.
 
 Mandatory: **No**
 
-Occurences: **1**
+Occurrences: **1**
 
 .. code-block:: xml
 
@@ -279,7 +279,7 @@ Organization publishing the journal.
 
 Mandatory: **No**
 
-Occurences: **1**
+Occurrences: **1**
 
 .. code-block:: xml
 
@@ -297,7 +297,7 @@ Name of the publisher.
 
 Mandatory: **No**
 
-Occurences: **1**
+Occurrences: **1**
 
 .. code-block:: xml
 
@@ -310,7 +310,7 @@ Information about publisher location.
 
 Mandatory: **No**
 
-Occurences: **1**
+Occurrences: **1**
 
 .. code-block:: xml
 
@@ -325,7 +325,7 @@ Country of the publisher.
 
 Mandatory: **No**
 
-Occurences: **1**
+Occurrences: **1**
 
 .. code-block:: xml
 
@@ -341,7 +341,7 @@ The owner of the journal, if it is different from the publisher, or other organi
 
 Mandatory: **No**
 
-Occurences: **0-n**
+Occurrences: **0-n**
 
 .. code-block:: xml
 
@@ -356,7 +356,7 @@ Name of the organization.
 
 Mandatory: **No**
 
-Occurences: **1**
+Occurrences: **1**
 
 .. code-block:: xml
 
@@ -366,11 +366,11 @@ Occurences: **1**
 publication-policy
 ******************
 
-Element containg policies related to the publication process in the journal.
+Element containing policies related to the publication process in the journal.
 
 Mandatory: **No**
 
-Occurences: **1**
+Occurrences: **1**
 
 .. code-block:: xml
 
@@ -394,7 +394,7 @@ Describes reviewing process used by the journal.
 
 Mandatory: **No**
 
-Occurences: **1**
+Occurrences: **1**
 
 .. code-block:: xml
 
@@ -411,7 +411,7 @@ Wrapper element for the languages in which the journal accepts article submissio
 
 Mandatory: **No**
 
-Occurences: **1**
+Occurrences: **1**
 
 .. code-block:: xml
 
@@ -429,7 +429,7 @@ Language in which the journal accepts article submissions. If journal accepts su
 
 Mandatory: **No**
 
-Occurences: **0-n**
+Occurrences: **0-n**
 
 .. code-block:: xml
 
@@ -445,7 +445,7 @@ Wrapper element for licenses under which the journal publishes its contents.
 
 Mandatory: **No**
 
-Occurences: **1**
+Occurrences: **1**
 
 .. code-block:: xml
 
@@ -462,7 +462,7 @@ License assigned under which the journal publishes its contents. If journal publ
 
 Mandatory: **No**
 
-Occurences: **0-n**
+Occurrences: **0-n**
 
 .. code-block:: xml
 
@@ -480,7 +480,7 @@ Link to the journal webpage (provided as an attribute)
 
 Mandatory: **No**
 
-Occurences: **1**
+Occurrences: **1**
 
 .. code-block:: xml
 
@@ -497,7 +497,7 @@ Wrapper element for journal keywords.
 
 Mandatory: **No**
 
-Occurences: **1**
+Occurrences: **1**
 
 .. code-block:: xml
 
@@ -515,7 +515,7 @@ Journal keyword.
 
 Mandatory: **No**
 
-Occurences: **0-n**
+Occurrences: **0-n**
 
 .. code-block:: xml
 
@@ -528,7 +528,7 @@ Wrapper element for journal classifications.
 
 Mandatory: **No**
 
-Occurences: **1**
+Occurrences: **1**
 
 .. code-block:: xml
 
@@ -546,7 +546,7 @@ classification
 
 Mandatory: **No**
 
-Occurences: **0-n**
+Occurrences: **0-n**
 
 .. code-block:: xml
 
@@ -564,7 +564,7 @@ Single entry of classification
 
 Mandatory: **No**
 
-Occurences: **0-n**
+Occurrences: **0-n**
 
 .. code-block:: xml
 
@@ -933,6 +933,7 @@ Below is the list of supported codes:
 - **CHV** - Chuvash
 - **CHY** - Cheyenne
 - **CMC** - Chamic languages
+- **CNR** - Montenegrin
 - **COP** - Coptic
 - **COR** - Cornish
 - **COS** - Corsican
@@ -1324,6 +1325,7 @@ Below is the list of supported codes:
 - **ZAP** - Zapotec
 - **ZBL** - Blissymbols
 - **ZEN** - Zenaga
+- **ZGH** - Standard Moroccan Tamazight
 - **ZHA** - Zhuang
 - **ZHO** - Chinese
 - **ZND** - Zande languages
