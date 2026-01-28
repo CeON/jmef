@@ -504,6 +504,7 @@
       <xs:enumeration value="ZAF"/> <!-- South Africa -->
       <xs:enumeration value="ZMB"/> <!-- Zambia -->
       <xs:enumeration value="ZWE"/> <!-- Zimbabwe -->
+      <xs:enumeration value="XKX"/> <!-- Kosovo -->
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="languageIso2Type" id="languageIso2Type">

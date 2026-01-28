@@ -703,6 +703,7 @@ Below is the list of supported codes:
 - **JPN** - Japan
 - **KAZ** - Kazakhstan
 - **KEN** - Kenya
+- **XKX** - Kosovo
 - **KGZ** - Kyrgyzstan
 - **KHM** - Cambodia
 - **KIR** - Kiribati
